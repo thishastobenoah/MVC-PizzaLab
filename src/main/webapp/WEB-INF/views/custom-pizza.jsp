@@ -11,7 +11,6 @@
 	<%
 	String size = request.getParameter("size");
 	int toppings = Integer.parseInt(request.getParameter("toppings"));
-	boolean glutenFree = Boolean.parseBoolean(request.getParameter("glutenFree"));
 	%>
 	<% 
 	if(request.getParameter("glutenFree").equals("1")){
